@@ -1,6 +1,6 @@
 const { watch } = require("fs")
 const path = require("path")
-const postCssPlugins = [require("postcss-import"), require("postcss-mixins"), require("postcss-simple-vars"), require("postcss-nested"), require("autoprefixer")]
+const postCssPlugins = [require("postcss-import"), require("postcss-mixins"), require("postcss-simple-vars"), require("postcss-nested"), require("postcss-hexrgba"), require("autoprefixer")]
 
 module.exports = {
   // path to the file what we want to bundle App.js
